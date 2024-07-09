@@ -43,7 +43,7 @@ color: rgb(255, 255, 255);</string>
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+             <iconset resource="recursos.qrc">
               <normaloff>:/newPrefix/Iconos/iconMove.png</normaloff>:/newPrefix/Iconos/iconMove.png</iconset>
             </property>
             <property name="iconSize">
@@ -66,7 +66,7 @@ color: rgb(255, 255, 255);</string>
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+             <iconset resource="recursos.qrc">
               <normaloff>:/newPrefix/Iconos/IconHouse.png</normaloff>:/newPrefix/Iconos/IconHouse.png</iconset>
             </property>
             <property name="iconSize">
@@ -121,7 +121,7 @@ font: 75 10pt &quot;Century Gothic&quot;;</string>
              <enum>Qt::AutoText</enum>
             </property>
             <property name="pixmap">
-             <pixmap resource="../../../Proyecto_EDO/src/vista/recursos.qrc">:/newPrefix/Iconos/TEMPOLARM_BAR_2.png</pixmap>
+             <pixmap resource="recursos.qrc">:/newPrefix/Iconos/TEMPOLARM_BAR_2.png</pixmap>
             </property>
             <property name="scaledContents">
              <bool>false</bool>
@@ -153,7 +153,7 @@ font: 75 10pt &quot;Century Gothic&quot;;</string>
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+             <iconset resource="recursos.qrc">
               <normaloff>:/newPrefix/Iconos/iconSobre.png</normaloff>:/newPrefix/Iconos/iconSobre.png</iconset>
             </property>
             <property name="iconSize">
@@ -269,7 +269,7 @@ font: 75 28pt &quot;Century Gothic&quot;;</string>
                 <string/>
                </property>
                <property name="pixmap">
-                <pixmap resource="../../../Proyecto_EDO/src/vista/recursos.qrc">:/newPrefix/Iconos/Fondo_1.PNG</pixmap>
+                <pixmap resource="recursos.qrc">:/newPrefix/Iconos/Fondo_1.PNG</pixmap>
                </property>
                <property name="scaledContents">
                 <bool>true</bool>
@@ -634,7 +634,7 @@ color: rgb(0, 0, 0);</string>
                     <string>GRÁFICO</string>
                    </property>
                    <property name="icon">
-                    <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+                    <iconset>
                      <normaloff>:/newPrefix/Iconos/Graph.png</normaloff>:/newPrefix/Iconos/Graph.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -667,7 +667,7 @@ color: rgb(0, 0, 0);</string>
                     <string>CALCULAR</string>
                    </property>
                    <property name="icon">
-                    <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+                    <iconset resource="recursos.qrc">
                      <normaloff>:/newPrefix/Iconos/iconCheck.png</normaloff>:/newPrefix/Iconos/iconCheck.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -690,7 +690,7 @@ color: rgb(0, 0, 0);</string>
                     <string>LIMPIAR</string>
                    </property>
                    <property name="icon">
-                    <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+                    <iconset resource="recursos.qrc">
                      <normaloff>:/newPrefix/Iconos/iconRedo.png</normaloff>:/newPrefix/Iconos/iconRedo.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -935,7 +935,7 @@ finalizar cada temporizador.</string>
                       <string/>
                      </property>
                      <property name="pixmap">
-                      <pixmap resource="../../../Proyecto_EDO/src/vista/recursos.qrc">:/newPrefix/Iconos/kewin.jpg</pixmap>
+                      <pixmap resource="recursos.qrc">:/newPrefix/Iconos/kewin.jpg</pixmap>
                      </property>
                      <property name="scaledContents">
                       <bool>true</bool>
@@ -989,7 +989,7 @@ background-color: rgb(34, 0, 17);
                 <string>ACEPTAR</string>
                </property>
                <property name="icon">
-                <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+                <iconset resource="recursos.qrc">
                  <normaloff>:/newPrefix/Iconos/iconCheck.png</normaloff>:/newPrefix/Iconos/iconCheck.png</iconset>
                </property>
                <property name="iconSize">
@@ -1064,7 +1064,7 @@ font-weight:bold;
           <string/>
          </property>
          <property name="pixmap">
-          <pixmap resource="../../../Proyecto_EDO/src/vista/recursos.qrc">:/newPrefix/Iconos/EDO_LOGO.png</pixmap>
+          <pixmap resource="recursos.qrc">:/newPrefix/Iconos/EDO_LOGO.png</pixmap>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -1077,7 +1077,7 @@ font-weight:bold;
           <string>MÉTODO EULER</string>
          </property>
          <property name="icon">
-          <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+          <iconset resource="recursos.qrc">
            <normaloff>:/newPrefix/Iconos/E.png</normaloff>:/newPrefix/Iconos/E.png</iconset>
          </property>
          <property name="iconSize">
@@ -1103,7 +1103,7 @@ font-weight:bold;
           <string>MÉTODO TAYLOR</string>
          </property>
          <property name="icon">
-          <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+          <iconset resource="recursos.qrc">
            <normaloff>:/newPrefix/Iconos/T.png</normaloff>:/newPrefix/Iconos/T.png</iconset>
          </property>
          <property name="iconSize">
@@ -1126,7 +1126,7 @@ font-weight:bold;
           <string>MÉTODO EULER M</string>
          </property>
          <property name="icon">
-          <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+          <iconset resource="recursos.qrc">
            <normaloff>:/newPrefix/Iconos/EM.png</normaloff>:/newPrefix/Iconos/EM.png</iconset>
          </property>
          <property name="iconSize">
@@ -1149,7 +1149,7 @@ font-weight:bold;
           <string>MÉTODO RUNGE K.</string>
          </property>
          <property name="icon">
-          <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+          <iconset resource="recursos.qrc">
            <normaloff>:/newPrefix/Iconos/RK.png</normaloff>:/newPrefix/Iconos/RK.png</iconset>
          </property>
          <property name="iconSize">
@@ -1185,7 +1185,7 @@ font-weight:bold;
           <string>SALIR</string>
          </property>
          <property name="icon">
-          <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+          <iconset resource="recursos.qrc">
            <normaloff>:/newPrefix/Iconos/iconCerrar.png</normaloff>:/newPrefix/Iconos/iconCerrar.png</iconset>
          </property>
          <property name="iconSize">
@@ -1259,7 +1259,7 @@ font-weight:bold;
             <string/>
            </property>
            <property name="pixmap">
-            <pixmap resource="../../../Proyecto_EDO/src/vista/recursos.qrc">:/newPrefix/Iconos/Logo_EDO_1.png</pixmap>
+            <pixmap resource="recursos.qrc">:/newPrefix/Iconos/Logo_EDO_1.png</pixmap>
            </property>
            <property name="scaledContents">
             <bool>true</bool>
@@ -1276,7 +1276,7 @@ font-weight:bold;
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+            <iconset resource="recursos.qrc">
              <normaloff>:/newPrefix/Iconos/E.png</normaloff>:/newPrefix/Iconos/E.png</iconset>
            </property>
            <property name="iconSize">
@@ -1299,7 +1299,7 @@ font-weight:bold;
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+            <iconset resource="recursos.qrc">
              <normaloff>:/newPrefix/Iconos/T.png</normaloff>:/newPrefix/Iconos/T.png</iconset>
            </property>
            <property name="iconSize">
@@ -1322,7 +1322,7 @@ font-weight:bold;
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+            <iconset resource="recursos.qrc">
              <normaloff>:/newPrefix/Iconos/EM.png</normaloff>:/newPrefix/Iconos/EM.png</iconset>
            </property>
            <property name="iconSize">
@@ -1345,7 +1345,7 @@ font-weight:bold;
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+            <iconset resource="recursos.qrc">
              <normaloff>:/newPrefix/Iconos/RK.png</normaloff>:/newPrefix/Iconos/RK.png</iconset>
            </property>
            <property name="iconSize">
@@ -1383,7 +1383,7 @@ font-weight:bold;
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../../../Proyecto_EDO/src/vista/recursos.qrc">
+          <iconset resource="recursos.qrc">
            <normaloff>:/newPrefix/Iconos/iconCerrar.png</normaloff>:/newPrefix/Iconos/iconCerrar.png</iconset>
          </property>
          <property name="iconSize">
@@ -1407,7 +1407,7 @@ font-weight:bold;
   </widget>
  </widget>
  <resources>
-  <include location="../../../Proyecto_EDO/src/vista/recursos.qrc"/>
+  <include location="recursos.qrc"/>
  </resources>
  <connections>
   <connection>

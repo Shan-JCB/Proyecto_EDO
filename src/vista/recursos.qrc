@@ -1,21 +1,15 @@
 <RCC>
   <qresource prefix="newPrefix">
-    <file>Iconos/TEMPOLARM_BAR_2.png</file>
     <file>Iconos/E.png</file>
-    <file>Iconos/EM.png</file>
-    <file>Iconos/RK.png</file>
-    <file>Iconos/T.png</file>
-    <file>Iconos/Logo_EDO_1.png</file>
     <file>Iconos/EDO_LOGO.png</file>
-    <file>Iconos/Logo_EDO.png</file>
+    <file>Iconos/EM.png</file>
     <file>Iconos/Fondo_1.PNG</file>
-    <file>Iconos/kewin.jpg</file>
-    <file>Iconos/IconHouse.png</file>
     <file>Iconos/iconAlarma.png</file>
     <file>Iconos/iconAudio.png</file>
     <file>Iconos/iconCerrar.png</file>
     <file>Iconos/iconCheck.png</file>
     <file>Iconos/iconClose.png</file>
+    <file>Iconos/IconHouse.png</file>
     <file>Iconos/IconJSheshe_Opacy.png</file>
     <file>Iconos/IconMen.png</file>
     <file>Iconos/iconMin.png</file>
@@ -29,10 +23,16 @@
     <file>Iconos/iconSize.png</file>
     <file>Iconos/iconSobre.png</file>
     <file>Iconos/iconTemporizador.png</file>
+    <file>Iconos/kewin.jpg</file>
     <file>Iconos/kirby_adios.jpeg</file>
     <file>Iconos/Kirby_hola.jpg</file>
+    <file>Iconos/Logo_EDO.png</file>
+    <file>Iconos/Logo_EDO_1.png</file>
+    <file>Iconos/RK.png</file>
+    <file>Iconos/T.png</file>
     <file>Iconos/TEMPOLARM.png</file>
     <file>Iconos/TEMPOLARM_BAR_1.png</file>
+    <file>Iconos/TEMPOLARM_BAR_2.png</file>
     <file>Iconos/Userio_con.png</file>
   </qresource>
 </RCC>
