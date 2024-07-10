@@ -183,7 +183,7 @@ background-color: rgb(13, 13, 13);
 }
 
 QPushButton{
-background-color: rgb(20, 28, 77);
+background-color: rgb(20, 54, 148);
 text-align:center;
 border-top-left-radius: 20px;
 border-bottom-left-radius:20px;
@@ -194,7 +194,7 @@ font: 75 10pt &quot;Century Gothic&quot;;
 }
 
 QPushButton:hover{
-background-color: rgb(38, 55, 149);
+background-color: rgb(10, 29, 81);
 border-top-left-radius: 20px;
 border-bottom-left-radius:20px;
 border-top-right-radius: 20px;
@@ -215,7 +215,7 @@ border: 1px border: 1px solid rgb(118, 0, 59);
 }</string>
          </property>
          <property name="currentIndex">
-          <number>1</number>
+          <number>0</number>
          </property>
          <widget class="QWidget" name="Inicio_page">
           <layout class="QVBoxLayout" name="verticalLayout_5">
@@ -252,14 +252,14 @@ font: 75 28pt &quot;Century Gothic&quot;;</string>
               <widget class="QLabel" name="lbl_icon">
                <property name="minimumSize">
                 <size>
-                 <width>100</width>
+                 <width>900</width>
                  <height>100</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>1080</width>
-                 <height>700</height>
+                 <width>909</width>
+                 <height>400</height>
                 </size>
                </property>
                <property name="layoutDirection">
@@ -269,7 +269,7 @@ font: 75 28pt &quot;Century Gothic&quot;;</string>
                 <string/>
                </property>
                <property name="pixmap">
-                <pixmap resource="recursos.qrc">:/newPrefix/Iconos/Fondo_1.PNG</pixmap>
+                <pixmap resource="recursos.qrc">:/newPrefix/Iconos/wall.jpg</pixmap>
                </property>
                <property name="scaledContents">
                 <bool>true</bool>
@@ -299,6 +299,9 @@ font: 75 28pt &quot;Century Gothic&quot;;</string>
              <property name="orientation">
               <enum>Qt::Vertical</enum>
              </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Minimum</enum>
+             </property>
              <property name="sizeHint" stdset="0">
               <size>
                <width>20</width>
@@ -327,7 +330,7 @@ font: 75 28pt &quot;Century Gothic&quot;;</string>
              </property>
              <property name="styleSheet">
               <string notr="true">font: 75 14pt &quot;Century Gothic&quot;;
-background-color: rgb(35, 49, 127);</string>
+background-color: rgb(0, 47, 124);</string>
              </property>
              <property name="text">
               <string>METODO DE EULER - 1ER ORDEN</string>
@@ -623,29 +626,6 @@ color: rgb(0, 0, 0);</string>
                <item>
                 <layout class="QHBoxLayout" name="horizontalLayout_3">
                  <item>
-                  <widget class="QPushButton" name="btn_Grafico">
-                   <property name="maximumSize">
-                    <size>
-                     <width>16777215</width>
-                     <height>40</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>GRÁFICO</string>
-                   </property>
-                   <property name="icon">
-                    <iconset>
-                     <normaloff>:/newPrefix/Iconos/Graph.png</normaloff>:/newPrefix/Iconos/Graph.png</iconset>
-                   </property>
-                   <property name="iconSize">
-                    <size>
-                     <width>40</width>
-                     <height>40</height>
-                    </size>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <spacer name="horizontalSpacer">
                    <property name="orientation">
                     <enum>Qt::Horizontal</enum>
@@ -825,25 +805,12 @@ color: rgb(0, 0, 0);</string>
                 <item>
                  <widget class="QLabel" name="label_21">
                   <property name="text">
-                   <string>&quot;TEMPOLARM&quot;</string>
+                   <string>ECUACIONES DIFERENCIALES</string>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignCenter</set>
                   </property>
                  </widget>
-                </item>
-                <item>
-                 <spacer name="verticalSpacer_12">
-                  <property name="orientation">
-                   <enum>Qt::Vertical</enum>
-                  </property>
-                  <property name="sizeHint" stdset="0">
-                   <size>
-                    <width>20</width>
-                    <height>29</height>
-                   </size>
-                  </property>
-                 </spacer>
                 </item>
                 <item>
                  <widget class="QLabel" name="label_22">
@@ -856,33 +823,22 @@ color: rgb(0, 0, 0);</string>
                  </widget>
                 </item>
                 <item>
-                 <spacer name="verticalSpacer_11">
-                  <property name="orientation">
-                   <enum>Qt::Vertical</enum>
-                  </property>
-                  <property name="sizeHint" stdset="0">
-                   <size>
-                    <width>20</width>
-                    <height>28</height>
-                   </size>
-                  </property>
-                 </spacer>
-                </item>
-                <item>
                  <widget class="QLabel" name="label_23">
                   <property name="text">
-                   <string>Es una aplicación de gestión de tiempo
- multipropósito que combina 
-un temporizador, una alarma y un 
-temporizador Pomodoro. La aplicación 
-permitirá alos usuarios configurar y
- gestionar diferentes tipos de 
-temporizadores según sus necesidades, 
-con la capacidad de iniciar, pausar, 
-reiniciar y salir de cada uno deellos. 
-Además, la aplicación incluirá un ring 
-de 3 segundos que se activará al 
-finalizar cada temporizador.</string>
+                   <string>El programa es una aplicación GUI diseñada para resolver ecuaciones
+
+ diferenciales usando varios métodos numéricos como Euler, Taylor
+
+ y Runge-Kutta. Permite al usuario seleccionar el método deseado,
+
+ ingresar los parámetros necesarios, y calcular los resultados, 
+
+mostrando estos en una tabla. Además, incluye funcionalidades para
+
+ limpiar los campos y la tabla al cambiar de página o al presionar 
+
+un botón específico.
+</string>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignCenter</set>
@@ -924,25 +880,6 @@ finalizar cada temporizador.</string>
                     </spacer>
                    </item>
                    <item>
-                    <widget class="QLabel" name="label_25">
-                     <property name="maximumSize">
-                      <size>
-                       <width>100</width>
-                       <height>150</height>
-                      </size>
-                     </property>
-                     <property name="text">
-                      <string/>
-                     </property>
-                     <property name="pixmap">
-                      <pixmap resource="recursos.qrc">:/newPrefix/Iconos/kewin.jpg</pixmap>
-                     </property>
-                     <property name="scaledContents">
-                      <bool>true</bool>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
                     <spacer name="horizontalSpacer_7">
                      <property name="orientation">
                       <enum>Qt::Horizontal</enum>
@@ -961,43 +898,11 @@ finalizar cada temporizador.</string>
                 <item>
                  <widget class="QLabel" name="label_24">
                   <property name="text">
-                   <string>©albañilesdesoftware</string>
+                   <string>©j_8</string>
                   </property>
                  </widget>
                 </item>
                </layout>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="btn_GuardarUser_2">
-               <property name="minimumSize">
-                <size>
-                 <width>100</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">QPushButton{ 
-background-color: rgb(59, 0, 29);
-}
-
-QPushButton:hover{ 
-background-color: rgb(34, 0, 17);
-}</string>
-               </property>
-               <property name="text">
-                <string>ACEPTAR</string>
-               </property>
-               <property name="icon">
-                <iconset resource="recursos.qrc">
-                 <normaloff>:/newPrefix/Iconos/iconCheck.png</normaloff>:/newPrefix/Iconos/iconCheck.png</iconset>
-               </property>
-               <property name="iconSize">
-                <size>
-                 <width>40</width>
-                 <height>40</height>
-                </size>
-               </property>
               </widget>
              </item>
             </layout>
@@ -1013,11 +918,11 @@ background-color: rgb(34, 0, 17);
      <widget class="QWidget" name="frame_Botones" native="true">
       <property name="styleSheet">
        <string notr="true">QWidget{
-background-color: rgb(42, 64, 106);
+background-color: rgb(0, 47, 124);
 }
 
 QPushButton{
-background-color: rgb(31, 51, 106);
+background-color: rgb(22, 86, 189);
 text-align:left;
 border-top-left-radius: 20px;
 border-bottom-left-radius:20px;
@@ -1028,7 +933,7 @@ font: 75 10pt &quot;Century Gothic&quot;;
 }
 
 QPushButton:hover{
-background-color: rgb(31, 39, 86);
+background-color: rgb(10, 29, 81);
 border-top-left-radius: 20px;
 border-bottom-left-radius:20px;
 border-top-right-radius: 20px;
@@ -1038,7 +943,7 @@ font: 75 10pt &quot;Century Gothic&quot;;
 }
 
 QPushButton:checked{
-background-color: rgb(31, 39, 86);
+background-color: rgb(10, 29, 81);
 font-weight:bold;
 }</string>
       </property>
@@ -1209,11 +1114,11 @@ font-weight:bold;
      <widget class="QWidget" name="frame_Iconos" native="true">
       <property name="styleSheet">
        <string notr="true">QWidget{
-background-color: rgb(42, 64, 106);
+background-color: rgb(0, 47, 124);
 }
 
 QPushButton{
-background-color: rgb(31, 51, 106);
+background-color: rgb(22, 86, 189);
 border-top-left-radius: 20px;
 border-bottom-left-radius:20px;
 border-top-right-radius: 20px;
@@ -1223,7 +1128,7 @@ font: 75 10pt &quot;Century Gothic&quot;;
 }
 
 QPushButton:hover{
-background-color: rgb(31, 39, 86);
+background-color: rgb(10, 29, 81);
 border-top-left-radius: 20px;
 border-bottom-left-radius:20px;
 border-top-right-radius: 20px;
@@ -1233,7 +1138,7 @@ font: 75 10pt &quot;Century Gothic&quot;;
 }
 
 QPushButton:checked{
-background-color: rgb(31, 39, 86);
+background-color: rgb(10, 29, 81);
 font-weight:bold;
 }
 </string>
